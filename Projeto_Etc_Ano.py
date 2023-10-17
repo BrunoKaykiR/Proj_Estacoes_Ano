@@ -18,24 +18,24 @@ if month in mesaf and day <= 31:
 
     if month in mesaf[2:5]:
         if day < 20 and month == 'março':
-            print(f'a Estação do dia {day} e mês {month} é Verão')
+            print(f'a Estação do dia {day} e mês de {month} é Verão')
         else:
-            print(f'a Estação do dia {day} e mês {month} é Outono')
+            print(f'a Estação do dia {day} e mês de {month} é Outono')
 
     elif month in mesaf[5:8]:
         if day < 21 and month == 'junho':
-            print(f'a Estação do dia {day} e mês {month} é Outono')
+            print(f'a Estação do dia {day} e mês de {month} é Outono')
         else:
-            print(f'a Estação do dia {day} e mês {month} é Inverno')
+            print(f'a Estação do dia {day} e mês de {month} é Inverno')
 
     elif month in mesaf[8:11]:
         if day < 23 and month == 'setembro':
-            print(f'a Estação do dia {day} e mês {month} é Inverno')
+            print(f'a Estação do dia {day} e mês de {month} é Inverno')
         else:
-            print(f'a Estação do dia {day} e mês {month} é Primavera')
+            print(f'a Estação do dia {day} e mês de {month} é Primavera')
 
     else:
-        print(f'a Estação do dia {day} e mês {month} é Verão')
+        print(f'a Estação do dia {day} e mês de {month} é Verão')
 
 #MÊS INVÁLIDADO
 else:

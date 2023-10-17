@@ -11,7 +11,7 @@ mesaf = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'a
 
 #PROCESSAMENTO E SAÍDAS
 
-if month in mesaf:
+if month in mesaf and day <= 31:
 ##MÊS VÁLIDO
 
 #ESTRUTURA DE CONDICIONAMENTOS
@@ -39,6 +39,6 @@ if month in mesaf:
 
 #MÊS INVÁLIDADO
 else:
-    print('Mês Inválido!')
+    print('Certifique-se de inserir valores válidos!')
 
 
